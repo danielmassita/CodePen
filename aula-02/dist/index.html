@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Moedas - ID5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de Moedas
+  </h1><br>
+  <p class="page-subtitle">
+    Descubra qual o valor em Real (BRL) e Euro (EUR) a partir do preço em Dólares (USD)!
+  </p>
+  <br><br>
+  <label for="moeda" color: black>Insira o valor (em USD)</label><br>
+  <input type="number" id="valor" size="2" placeholder="US$"/><br>
+  <button type="submit" onclick="ConverterBRL()">Converter para R$ (BRL)</button>
+  <button type="submit" onclick="ConverterEUR()">Converter para € (EUR)</button>
+  <button type="submit" onclick="ConverterJPY()">Converter para ¥ (JPY)</button>
+  <button type="submit" onclick="ConverterBTC()">Converter para ₿ (BTC)</button>
+  <br><br>
+  
+  <h2 id="valorConvertido"> <br></h2> <!-- a tag <br> faz com que o logo da Alura não se mova quando o texto surgir do nada com uma linha adicional-->
+  
+  <br><br><br><br><br><br><br><br><br><br>
+  
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
